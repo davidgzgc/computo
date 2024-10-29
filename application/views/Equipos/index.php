@@ -1,4 +1,4 @@
-<h1>Lista de Equipos</h1>
+<h1   style="color:DodgerBlue;">Lista de Equipos</h1>
 <a href="<?php echo site_url('Equipos/crear'); ?>">Registrar Equipos</a>
 <table>
     <tr>
