@@ -2,28 +2,28 @@
 <form action="<?php echo site_url('Equipos/crear'); ?>" method="post">
     <div>
 
-    <label   style="color:DodgerBlue;" for="id">id:</label>
+    <label   style="color:DodgerBlue;" for="id">ID:</label><br>
     <input type="text" name="id" required>
 
     </div><br>
 
     <div>  
 
-    <label style="color:DodgerBlue;" for="nombre">nombre:  </label>
+    <label style="color:DodgerBlue;" for="nombre">Nombre:  </label><br>
     <input type="text" name="nombre" required>
 
     </div><br>
 
     <div>
 
-    <label   style="color:DodgerBlue;"  for="marca">Marca:</label>
+    <label   style="color:DodgerBlue;"  for="marca">Marca:</label><br>
     <input type="text" name="marca" required>
 
     </div><br>
 
     <div>
 
-    <label  style="color:DodgerBlue;"  for="color">color:</label>
+    <label  style="color:DodgerBlue;"  for="color">Color:</label><br>
     <input type="text" name="color" required>
 
 
@@ -31,14 +31,14 @@
 
   <div>
 
-  <label    style="color:DodgerBlue;" for="serie">serie:</label>
+  <label    style="color:DodgerBlue;" for="serie">Serie:</label><br>
   <input type="text" name="serie" required>
 
   </div><br>
 
    <div>
 
-   <label    style="color:DodgerBlue;"   for="usuario">usuario</label>
+   <label    style="color:DodgerBlue;"   for="usuario">Usuario</label><br>
    <input type="text" name="usuario" required>
 
 
@@ -46,7 +46,7 @@
 
   <div>
 
-  <label    style="color:DodgerBlue;"  for="fecha_compra">fecha_compra:</label>
+  <label    style="color:DodgerBlue;"  for="fecha_compra">Fecha Compra:</label><br>
   <input type="text" name="fecha_compra" required>
 
 
@@ -55,7 +55,7 @@
 
 <div>
 
-<label       style="color:DodgerBlue;"  for="precio_compra">precio_compra:</label>
+<label       style="color:DodgerBlue;"  for="precio_compra">Precio Compra:</label><br>
 <input type="text" name="precio_compra" required> 
 
 
@@ -65,7 +65,7 @@
 
 <div>
 
-<label    style="color:DodgerBlue;"     for="proveedor_nit">proveedor_nit:</label>
+<label    style="color:DodgerBlue;"     for="proveedor_nit">Proveedor Nit:</label><br>
 <input type="text" name="proveedor_nit" required> 
 
 
@@ -77,7 +77,7 @@
 
 <div>
 
-<label    style="color:DodgerBlue;"  for="estado">estado:</label>
+<label    style="color:DodgerBlue;"  for="estado">Estado:</label><br>
 <input type="text" name="estado" required> 
 
 
